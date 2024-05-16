@@ -294,7 +294,7 @@ PERRY=291
 AZZIE=292
 ANNA3=293
 KYRA=294
-
+PROFESSOR=295
 def self.getName(id)
 return pbGetMessage(MessageTypes::TrainerTypes,id)
 end
