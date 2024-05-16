@@ -295,13 +295,14 @@ AZZIE=292
 ANNA3=293
 KYRA=294
 PROFESSOR=295
+
 def self.getName(id)
 return pbGetMessage(MessageTypes::TrainerTypes,id)
 end
 def self.getCount
-return 295
+return 296
 end
 def self.maxValue
-return 294
+return 295
 end
 end
