@@ -1,0 +1,3110 @@
+---
+root: !ruby/object:RPG::Map
+  tileset_id: 2
+  width: 20
+  height: 15
+  autoplay_bgm: true
+  bgm: !ruby/object:RPG::AudioFile
+    name: Reborn- Coral
+    volume: 100
+    pitch: 100
+  autoplay_bgs: false
+  bgs: !ruby/object:RPG::AudioFile
+    name: ''
+    volume: 80
+    pitch: 100
+  encounter_list: []
+  encounter_step: 30
+  data: !ruby/object:Table
+    dim: 3
+    zsize: 3
+    ysize: 15
+    xsize: 20
+    data:
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 52
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 56
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 2026
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 2034
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 2032
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 50
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 49
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 434
+    - 435
+    - 436
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 442
+    - 443
+    - 444
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1282
+    - 1282
+    - 1282
+    - 1296
+    - 1297
+    - 1285
+    - 1282
+    - 1282
+    - 1282
+    - 1282
+    - 1282
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1290
+    - 1290
+    - 1290
+    - 1304
+    - 1305
+    - 1293
+    - 1290
+    - 1290
+    - 1290
+    - 1290
+    - 1290
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2378
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 584
+    - 585
+    - 586
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 439
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 439
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 447
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 447
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2378
+    - 2358
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2378
+    - 2358
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 451
+    - 452
+    - 0
+    - 2358
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2358
+    - 451
+    - 452
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 459
+    - 460
+    - 0
+    - 2378
+    - 659
+    - 660
+    - 661
+    - 0
+    - 2358
+    - 459
+    - 460
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  events:
+    1: !ruby/object:RPG::Event
+      id: 1
+      name: Danielle
+      x: 11
+      y: 10
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar169
+          character_hue: 0
+          direction: 8
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: true
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 0
+          parameters:
+          - 2
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 2
+          - B
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: Greetings, Trainer who I have clearly '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'never seen and has definitely not already blown the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - quiz once.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Please allow me to regale you with mind-boggling '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - questions--
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Okay, you know what, let''s just get to it before my '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - dead eyes roll into the back of my head.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: What, you want to try the quiz again?'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'You probably just went and specifically looked for '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - the answer, didn't you? It's no fun at that point.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Hmph. Fine, if it''ll make you feel better, I''ll pretend I''m '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - stupid enough to go for that!
+        - !ruby/object:RPG::EventCommand
+          code: 123
+          indent: 2
+          parameters:
+          - B
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Are you ready, first-timer?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - "???: Greetings from the blind."
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'The name''s Danielle, but don''t you dare pity me, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - Trainer.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - I see more than you ever will.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'But I''ll humor you. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'I''ll ask you three questions. If you can answer all of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - 'them, I''ll give you a reward. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - Wanna try it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 102
+          indent: 0
+          parameters:
+          - - 'Yes'
+            - 'No'
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 0
+          parameters:
+          - 0
+          - 'Yes'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'DANIELLE: Question number one-- this is an easy '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - 'one. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'How many headbutt trees are there in the area '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - around the Grand Hall?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 1
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 4
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: That''s right. Simple enough, isn''t it?'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Okay, question two. This one will be a little harder.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Assuming you can see them all from one angle or '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'another, how many satellite dishes are there in the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - Obsidia Ward?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 2
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 2
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 7
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'DANIELLE: Hmph.'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Yes, that''s right. But that''s obvious. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Fine. Since you''ve done well this far, oh mighty '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - questionee, I'll give you a really good one!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - Ready?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'How many banners and ribbons are there inside the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - Peridot Gym?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 3
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 31
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'DANIELLE: Tch.'
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 2
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Fine. That's correct.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'I''m so impressed and overcome with wonder at how '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - you could have possibly known the answer.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Wowie.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'But I''ll keep my promise and give you the reward, if '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - that's really what you want.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - "...Impressive."
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Most normal people don't get that right.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'You already knew these answers somehow, didn''t '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - you?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Well, whatever.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - I'll keep my promise and give you a reward.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 250
+          indent: 4
+          parameters:
+          - !ruby/object:RPG::AudioFile
+            name: itemlevel
+            volume: 100
+            pitch: 100
+        - !ruby/object:RPG::EventCommand
+          code: 121
+          indent: 4
+          parameters:
+          - 602
+          - 602
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - "\\PN obtained Field Effect Read-Out 03!"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - Info on Misty Terrain now available!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'DANIELLE: But hey? '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'I''ve been all over Reborn, and I effortlessly pick up '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - this kind of information.
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 0
+          - 479
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'You seem like you''ve gotten around a fair bit, but I bet '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - 'I know things about lots of other places you''d never '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - even think of!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - So if you wanna try this again, I'm game.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'Come back after you''ve traveled as much as I have, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - and we'll try this again!
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'DANIELLE: There!'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'Just because you''re normal, it doesn''t mean you '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - know more than me!
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'DANIELLE: Wrong!'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Surely you couldn''t miss something as big as a '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - satellite dish, could you?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - Or are you the blind one?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: Hmm~ Wrong!'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'What''s the matter? Didn''t you pass by there once or '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - twice?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Did the trees hide from your perfect eyes' sight?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - How disappointing.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 123
+          indent: 1
+          parameters:
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 0
+          parameters:
+          - 1
+          - 'No'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'DANIELLE: Awh. That''s no fun. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'If a girl can''t even pick on people who assume '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - they're better than her, what's she got to live for?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 404
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: true
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 602
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar169
+          character_hue: 0
+          direction: 8
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: true
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'DANIELLE: Come back after you''ve traveled as much '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - as I have, and we'll try this again!
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: true
+          switch2_valid: true
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 602
+          switch2_id: 479
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar169
+          character_hue: 0
+          direction: 8
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: true
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 0
+          parameters:
+          - 2
+          - C
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 2
+          - D
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: Yawn.'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Did you find all your answers yet?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: Are we really going to do this again?'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Does it bring you a sense of fulfillment knowing you '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'just go specifically looking for the answers instead of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - learning to observe as you go?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'There''s no point if you do that, but if it really means '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - that much to you, I'll gratify you once more.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Don't say I'm not nice.
+        - !ruby/object:RPG::EventCommand
+          code: 123
+          indent: 2
+          parameters:
+          - D
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Are you ready, oh master surveyor?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'DANIELLE: Oh, back so soon?'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - Did you actually learn anything?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 102
+          indent: 0
+          parameters:
+          - - 'Yes'
+            - 'No'
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 0
+          parameters:
+          - 0
+          - 'Yes'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'DANIELLE: We''ll see about that.'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'Grand rematch of the century, battle of the ages and '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - 'all that: Question one!'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'How many individual train cars are there in the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - Byxbysion Wasteland?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 1
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 15
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: Yeah, yeah, okay. So you can count, big '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - deal.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'For the record, the only reason I''m even doing these '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - "'how many' questions still is for the sake of tradition."
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - And I wouldn't want to overwhelm you.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Question two: How many buildings total are in '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - Ametrine City?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 2
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 2
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 30
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'DANIELLE: Glad that those didn''t escape your keen '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - sight.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Question three! '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'There''s a man who lives in the Aventurine Woods '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - with a bunch of Pikachu.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - How many Pikachu are usually inside his house?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 3
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 23
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'DANIELLE: I''ll give you points for that one; it''s harder '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - to keep track when they're all running around.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - But this isn't over yet!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'How many satellite dishes are there in all of Spinel '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - Town?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 4
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'DANIELLE: That''s right! '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Trick question! You got me.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Okay, okay. A real one this time!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'How many bookshelves are there in all of Apophyll '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - Academy?
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 5
+          parameters:
+          - 72
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 72
+          - 0
+          - 42
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'DANIELLE: All right! You''re doing well!'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'Too well, in fact, so I''m going to throw everything I''ve '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 6
+          parameters:
+          - got at you!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - Final question! This is for all the cookies!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - How many trees are there in all of Chrysolia Forest?!
+        - !ruby/object:RPG::EventCommand
+          code: 103
+          indent: 6
+          parameters:
+          - 72
+          - 5
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'DANIELLE: ...'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - "......"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - "........."
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - Just kidding!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'Even I don''t know that one. '
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 6
+          parameters:
+          - 2
+          - C
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 7
+          parameters:
+          - 'But I''ll let you have it. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 7
+          parameters:
+          - 'Even if you did just go specifically look for the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 7
+          parameters:
+          - 'answers, think about what I said about learning to '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 7
+          parameters:
+          - observe and not just see.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 7
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 7
+          parameters:
+          - You're pretty good.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 7
+          parameters:
+          - Too good, really.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 7
+          parameters:
+          - Most normal people don't get that right.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 7
+          parameters:
+          - Did you already know what I was going to ask?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 7
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'Regardless, that ended up being kind of fun. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'So in return for letting me tease you, you can have '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 6
+          parameters:
+          - this.
+        - !ruby/object:RPG::EventCommand
+          code: 250
+          indent: 6
+          parameters:
+          - !ruby/object:RPG::AudioFile
+            name: itemlevel
+            volume: 100
+            pitch: 100
+        - !ruby/object:RPG::EventCommand
+          code: 121
+          indent: 6
+          parameters:
+          - 630
+          - 630
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - "\\PN obtained Field Effect Read-Out 31!"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - Info on Fairy Tale Field now available!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'DANIELLE: I''d like to travel the world someday.'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'People always talk about seeing it, but they never '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 6
+          parameters:
+          - 'mention how each place has different sounds, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 6
+          parameters:
+          - scents and atmospheres.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - That's what I live on.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'When that happens, and I finally go visit everywhere, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 6
+          parameters:
+          - I'll be sure to get more questions to pick on you with!
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'DANIELLE: Realllllly?'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - Are you really really realllllly sure?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'I think you should check again! '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 6
+          parameters:
+          - 'After all, that seems to be the only way you''ll do '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 6
+          parameters:
+          - things.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'DANIELLE: Realllllly?'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Are you really really realllllly sure?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'I think you should check again! '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'After all, that seems to be the only way you''ll do '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - things.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'DANIELLE: Pi-pi, pikachuuuu!'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'By the way, that''s Pikachu-eese for "You''re wrong '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - and also a loser."
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'DANIELLE: Ahaha...'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - No.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'You really didn''t learn anything, did you? You can''t '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - even remember buildings? Did you not notice them?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'DANIELLE: Out on the first try!'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Come on, it''s not like those trains are going '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - anywhere. How do you miss them?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'I can practically see them all just by walking around in '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - that place.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 123
+          indent: 1
+          parameters:
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 0
+          parameters:
+          - 1
+          - 'No'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'DANIELLE: At least you''re honest. I can respect that.'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - I'll be waiting!
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 404
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: true
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 630
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar169
+          character_hue: 0
+          direction: 8
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: true
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'DANIELLE: When I can finally travel the world, I''ll be '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - sure to get more questions to pick on you with!
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: true
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 2055
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar169
+          character_hue: 0
+          direction: 8
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: true
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "???: Greetings from the blind."
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'The name''s Danielle, but don''t you dare pity me, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - Trainer.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - I see more than you ever will.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 630
+          variable_id: 576
+          variable_value: 2
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar169
+          character_hue: 0
+          direction: 8
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: true
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 0
+          parameters:
+          - 2
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'DANIELLE: Pardon me?'
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - "???: Greetings from the blind."
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - 'The name''s Danielle, but don''t you dare pity me, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 1
+          parameters:
+          - Trainer.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - I see more than you ever will.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 1
+          parameters:
+          - Oh, pardon me?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - You're asking if I can read braille?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Just because I'm blind?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Don't you think that's stereotyping a bit too much?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'Do you think all blind people are just born knowing '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - braille?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Do you think something like that is easy to learn?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'Just pick up a book and translate a few sentences to '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - solve a puzzle in a video game or something?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Well, you're right.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'It is easy, and of course I know braille-- I''m not a '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - troglodyte.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Tell me what you need, and be frank about it.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'Mm. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Braille tablets in a newly formed dimension?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - This sounds like a reasonable and believable story.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'And what makes you think that this neo-dimensional '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - 'braille of yours, assuming I choose to believe you, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - even translates to a known spoken language?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - You didn't think about that, did you?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Right.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'Well, let''s go see your allegedly newly-spawned '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - braille blocks ourselves, shall we?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - I use the term "see" loosely, of course.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'So tell me the way and I''ll go there myself. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - I detest hand-holding.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - In fact, I'm sure I'll beat you there.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - Ta.
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 106
+          indent: 0
+          parameters:
+          - 20
+        - !ruby/object:RPG::EventCommand
+          code: 122
+          indent: 0
+          parameters:
+          - 576
+          - 576
+          - 0
+          - 0
+          - 3
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 576
+          variable_value: 3
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: true
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+    2: !ruby/object:RPG::Event
+      id: 2
+      name: EV002
+      x: 8
+      y: 11
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 1
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 250
+          indent: 0
+          parameters:
+          - !ruby/object:RPG::AudioFile
+            name: Exit Door
+            volume: 80
+            pitch: 100
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 117
+          indent: 0
+          parameters:
+          - 6
+        - !ruby/object:RPG::EventCommand
+          code: 106
+          indent: 0
+          parameters:
+          - 9
+        - !ruby/object:RPG::EventCommand
+          code: 121
+          indent: 0
+          parameters:
+          - 286
+          - 286
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 201
+          indent: 0
+          parameters:
+          - 0
+          - 97
+          - 40
+          - 10
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: true
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 479
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 1
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 250
+          indent: 0
+          parameters:
+          - !ruby/object:RPG::AudioFile
+            name: Exit Door
+            volume: 80
+            pitch: 100
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 117
+          indent: 0
+          parameters:
+          - 6
+        - !ruby/object:RPG::EventCommand
+          code: 106
+          indent: 0
+          parameters:
+          - 9
+        - !ruby/object:RPG::EventCommand
+          code: 121
+          indent: 0
+          parameters:
+          - 286
+          - 286
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 201
+          indent: 0
+          parameters:
+          - 0
+          - 526
+          - 55
+          - 10
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+    3: !ruby/object:RPG::Event
+      id: 3
+      name: EV003
+      x: 8
+      y: 5
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar040
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - 'Welcome! Only residents are allowed upstairs, but '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - please feel free to visit in the lobby!
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []

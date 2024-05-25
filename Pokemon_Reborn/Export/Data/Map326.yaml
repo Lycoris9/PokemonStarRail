@@ -1,0 +1,4824 @@
+---
+root: !ruby/object:RPG::Map
+  tileset_id: 17
+  width: 20
+  height: 15
+  autoplay_bgm: true
+  bgm: !ruby/object:RPG::AudioFile
+    name: Reborn- Seventh
+    volume: 80
+    pitch: 100
+  autoplay_bgs: false
+  bgs: !ruby/object:RPG::AudioFile
+    name: ''
+    volume: 80
+    pitch: 100
+  encounter_list: []
+  encounter_step: 30
+  data: !ruby/object:Table
+    dim: 3
+    zsize: 3
+    ysize: 15
+    xsize: 20
+    data:
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 52
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 76
+    - 56
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 392
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 54
+    - 81
+    - 93
+    - 543
+    - 91
+    - 81
+    - 70
+    - 68
+    - 84
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 392
+    - 392
+    - 543
+    - 392
+    - 392
+    - 64
+    - 48
+    - 72
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 400
+    - 400
+    - 543
+    - 400
+    - 400
+    - 64
+    - 48
+    - 72
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 50
+    - 68
+    - 68
+    - 68
+    - 68
+    - 68
+    - 49
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 72
+    - 543
+    - 543
+    - 543
+    - 543
+    - 543
+    - 64
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 50
+    - 84
+    - 543
+    - 543
+    - 543
+    - 82
+    - 49
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 50
+    - 68
+    - 68
+    - 68
+    - 49
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 48
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 623
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 405
+    - 573
+    - 574
+    - 575
+    - 408
+    - 573
+    - 574
+    - 575
+    - 624
+    - 625
+    - 626
+    - 634
+    - 405
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 413
+    - 581
+    - 582
+    - 583
+    - 416
+    - 581
+    - 582
+    - 583
+    - 632
+    - 633
+    - 634
+    - 634
+    - 413
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 448
+    - 449
+    - 450
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 443
+    - 444
+    - 0
+    - 443
+    - 444
+    - 445
+    - 443
+    - 444
+    - 0
+    - 0
+    - 456
+    - 457
+    - 458
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 446
+    - 0
+    - 0
+    - 0
+    - 388
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 406
+    - 407
+    - 0
+    - 406
+    - 407
+    - 0
+    - 0
+    - 0
+    - 454
+    - 0
+    - 0
+    - 0
+    - 388
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 414
+    - 415
+    - 0
+    - 414
+    - 415
+    - 0
+    - 0
+    - 0
+    - 462
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 422
+    - 423
+    - 0
+    - 422
+    - 423
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 635
+    - 636
+    - 637
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 430
+    - 431
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 863
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 438
+    - 439
+    - 622
+    - 0
+    - 622
+    - 0
+    - 0
+    - 0
+    - 0
+    - 640
+    - 871
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 879
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 388
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 388
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 389
+    - 389
+    - 405
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  events:
+    1: !ruby/object:RPG::Event
+      id: 1
+      name: EV001
+      x: 4
+      y: 14
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 127
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 1
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 106
+          indent: 0
+          parameters:
+          - 9
+        - !ruby/object:RPG::EventCommand
+          code: 250
+          indent: 0
+          parameters:
+          - !ruby/object:RPG::AudioFile
+            name: Exit Door
+            volume: 80
+            pitch: 100
+        - !ruby/object:RPG::EventCommand
+          code: 201
+          indent: 0
+          parameters:
+          - 0
+          - 324
+          - 28
+          - 31
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 0
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+    2: !ruby/object:RPG::Event
+      id: 2
+      name: EV002
+      x: 12
+      y: 4
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - A book details various Pokémon natures...
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "\"Neutral-- Hardy, Docile, Serious, Bashful, Quirky"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "+Attack-- Lonely (-Def), Brave (-Speed), Adamant "
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - "(-Sp.Atk), Naughty (-Sp.Def)"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "+Defense: Bold (-Atk), Relaxed (-Speed), Impish (-Sp.Atk), "
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - Lax (-Sp.Def)
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "+Speed: Timid (-Atk), Hasty (-Def), Jolly (-Sp.Atk), "
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - Naive (-Sp.Def)
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "+Special Attack: Modest (-Atk), Mild (-Def), Quiet (-Speed), "
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - Rash (-Sp.Def)
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 0
+          parameters:
+          - "+Special Defense: Calm (-Atk), Gentle (-Def), Sassy "
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 0
+          parameters:
+          - (-Speed), Careful (-Sp.Atk)"
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+    3: !ruby/object:RPG::Event
+      id: 3
+      name: EV003
+      x: 13
+      y: 7
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar028
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 0
+          parameters:
+          - 6
+          - -1
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 2
+          - C
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Greetings, greetings, young Trainer.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'We haven''t met before, yes? Yes, quite. Please, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'allow me to introduce myself. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - I am a Pokémon Psychologist-- a rare line of work--
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'and questionable morality, but nonetheless! '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'It is my goal to help each Pokémon be the best it can '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'be. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'And further, I offer my services at the very, very low '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'cost of one single Heart Scale. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Now, now, now, no need to ask why an esteemed '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'doctor such as myself works so cheaply. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Call it a charity. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'At any rate, my therapy can go so far as to alter the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - very Nature of your Pokémon.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'I must profess, Pokémon Psychology is an imperfect '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - science.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'There is a chance that the process will produce no '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'change. Further, I cannot know beforehand what the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - Pokémon's Nature will become.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - It could be just about anything.
+        - !ruby/object:RPG::EventCommand
+          code: 123
+          indent: 2
+          parameters:
+          - C
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - So, onto business...
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 12
+          - "$PokemonBag.pbQuantity(PBItems::HEARTSCALE)>0"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'I see you''ve brought a Heart Scale. In that case, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'would you like me to alter the Nature of one of your '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - Pokémon?
+        - !ruby/object:RPG::EventCommand
+          code: 102
+          indent: 2
+          parameters:
+          - - 'Yes'
+            - 'No'
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 2
+          parameters:
+          - 0
+          - 'Yes'
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - pbChooseNonEggPokemon(1,2)
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - pkmn=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - "$game_variables[58] ="
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - PBSpecies.getName(pkmn.species)
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 0
+          - 4
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'I see, I see. No, that''s all right. If you have no need of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - my services, then that is ideal, yes?
+        - !ruby/object:RPG::EventCommand
+          code: 115
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - "\\PN handed over one Heart Scale."
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - "$PokemonBag.pbDeleteItem("
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - PBItems::HEARTSCALE)
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Ah, wonderful! I can hardly wait. Now... \v[58], '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - please lie down.
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 3
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 106
+          indent: 3
+          parameters:
+          - 40
+        - !ruby/object:RPG::EventCommand
+          code: 122
+          indent: 3
+          parameters:
+          - 62
+          - 62
+          - 0
+          - 2
+          - 1
+          - 25
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::HARDY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::LONELY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 3
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::BRAVE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 4
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::ADAMANT)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 5
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::NAUGHTY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 6
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::BOLD)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 7
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::DOCILE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 8
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::RELAXED)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 9
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::IMPISH)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 10
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::LAX)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 11
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::TIMID)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 12
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::HASTY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 13
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::SERIOUS)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 14
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::JOLLY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 15
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::NAIVE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 16
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::MODEST)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 17
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::MILD)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 18
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::QUIET)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 19
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::BASHFUL)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 20
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::RASH)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 21
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::CALM)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 22
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::GENTLE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 23
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::SASSY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 24
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::CAREFUL)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 25
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.setNature(PBNatures::QUIRKY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 3
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Well, I feel that we''ve made a breakthrough today. '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - 'You may find that you have a brand new \v[58] on '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - 'your hands. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Please come again if you wish to have another '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - session.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 2
+          parameters:
+          - 1
+          - 'No'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Of course, of course. Well, if you ever have need of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - my services, you know where to find me.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 404
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Do come around if you ever have a Heart Scale and '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - want me to try to change a Pokémon's Nature.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar028
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 0
+          parameters:
+          - 6
+          - -1
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 2
+          - C
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Greetings, greetings, young Trainer.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'We haven''t met before, yes? Yes, quite. Please, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'allow me to introduce myself. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - I am a Pokémon Psychologist-- a rare line of work--
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'and questionable morality, but nonetheless! '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'It is my goal to help each Pokémon be the best it can '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'be. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'And further, I offer my services at the very, very low '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'cost of two Heart Scales. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Now, now, now, no need to ask why an esteemed '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'doctor such as myself works so cheaply. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Call it a charity. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'At any rate, my therapy can go so far as to alter the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - very Nature of your Pokémon.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Pokémon Psychology has come a long way, after all.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - We can guarantee the outcome of your choosing-- no matter what it is.
+        - !ruby/object:RPG::EventCommand
+          code: 123
+          indent: 2
+          parameters:
+          - C
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - So, onto business...
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 12
+          - "$PokemonBag.pbQuantity(PBItems::HEARTSCALE)>1"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - I see you've brought the Heart Scales.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'In that case, would you like me to treat one of your '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - Pokémon?
+        - !ruby/object:RPG::EventCommand
+          code: 102
+          indent: 2
+          parameters:
+          - - 'Yes'
+            - 'No'
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 2
+          parameters:
+          - 0
+          - 'Yes'
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - pbChooseNonEggPokemon(1,2)
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - pkmn=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - "$game_variables[58] ="
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - PBSpecies.getName(pkmn.species)
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 0
+          - 4
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'I see, I see. No, that''s all right. If you have no need of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - my services, then that is ideal, yes?
+        - !ruby/object:RPG::EventCommand
+          code: 115
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - Very good, very good!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'As for the nature of the treatment... '
+        - !ruby/object:RPG::EventCommand
+          code: 118
+          indent: 3
+          parameters:
+          - '1'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Did you have anything in mind? \ch[62,-1,Hardy ,Lonely ,Brave ,Adamant
+            ,Naughty ,Bold ,Docile ,Relaxed ,Impish ,Lax ,Timid ,Hasty ,Serious ,Jolly
+            ,Naive ,Modest '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - ",Mild ,Quiet ,Bashful ,Rash ,Calm ,Gentle ,Sassy ,Careful ,Quirky]"
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 62
+          - 0
+          - -1
+          - 5
+        - !ruby/object:RPG::EventCommand
+          code: 122
+          indent: 4
+          parameters:
+          - 62
+          - 62
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Hardy, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Lonely, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 3
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Brave, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 4
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Adamant, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 5
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Naughty, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 6
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Bold, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 7
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Docile, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 8
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Relaxed, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 9
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Impish, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 10
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Lax, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 11
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Timid, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 12
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Hasty, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 13
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Serious, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 14
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Jolly, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 15
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Naive, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 16
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Modest, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 17
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Mild, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 18
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Quiet, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 19
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Bashful, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 20
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Rash, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 21
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Calm, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 22
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Gentle, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 23
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Sassy, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 24
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Careful, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 4
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 25
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Quirky, is it?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 102
+          indent: 4
+          parameters:
+          - - 'Yes'
+            - 'No'
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 4
+          parameters:
+          - 0
+          - 'Yes'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - "\\PN handed over two Heart Scales."
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 5
+          parameters:
+          - "$PokemonBag.pbDeleteItem("
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 5
+          parameters:
+          - PBItems::HEARTSCALE)
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 5
+          parameters:
+          - "$PokemonBag.pbDeleteItem("
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 5
+          parameters:
+          - PBItems::HEARTSCALE)
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'Ah, wonderful! I can hardly wait. Now... \v[58], '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - please lie down.
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 5
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 106
+          indent: 5
+          parameters:
+          - 40
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::HARDY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::LONELY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 3
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::BRAVE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 4
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::ADAMANT)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 5
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::NAUGHTY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 6
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::BOLD)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 7
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::DOCILE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 8
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::RELAXED)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 9
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::IMPISH)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 10
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::LAX)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 11
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::TIMID)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 12
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::HASTY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 13
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::SERIOUS)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 14
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::JOLLY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 15
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::NAIVE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 16
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::MODEST)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 17
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::MILD)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 18
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::QUIET)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 19
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::BASHFUL)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 20
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::RASH)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 21
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::CALM)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 22
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::GENTLE)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 23
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::SASSY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 24
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::CAREFUL)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 5
+          parameters:
+          - 1
+          - 62
+          - 0
+          - 25
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 6
+          parameters:
+          - poke=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.setNature(PBNatures::QUIRKY)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 6
+          parameters:
+          - poke.calcStats
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 6
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 5
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'Well, I feel that we''ve made a breakthrough today. '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - 'You may find that you have a brand new \v[58] on '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - 'your hands. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - 'Please come again if you wish to have another '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 5
+          parameters:
+          - session.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 4
+          parameters:
+          - 1
+          - 'No'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 5
+          parameters:
+          - Oh? What, then?
+        - !ruby/object:RPG::EventCommand
+          code: 119
+          indent: 5
+          parameters:
+          - '1'
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 5
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 404
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'I see, I see. No, that''s all right. If you have no need of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - my services, then that is ideal, yes?
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 2
+          parameters:
+          - 1
+          - 'No'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Of course, of course. Well, if you ever have need of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - my services, you know where to find me.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 404
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Do come around if you ever have a Heart Scale and '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - want me to try to change a Pokémon's Nature.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: trchar028
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 0
+          parameters:
+          - 6
+          - -1
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 2
+          - C
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Greetings, greetings, young Trainer.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'We haven''t met before, yes? Yes, quite. Please, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'allow me to introduce myself. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - I am a Pokémon Psychologist-- a rare line of work--
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'and questionable morality, but nonetheless! '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'It is my goal to help each Pokémon be the best it can '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'be. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'And further, I offer my services at the very, very low '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'cost of two Heart Scales. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Now, now, now, no need to ask why an esteemed '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - 'doctor such as myself works so cheaply. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Call it a charity. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'At any rate, my therapy can go so far as to alter the '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - very Nature of your Pokémon.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - Pokémon Psychology has come a long way, after all.
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'We can guarantee the outcome of your choosing-- '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - No matter what it is.
+        - !ruby/object:RPG::EventCommand
+          code: 123
+          indent: 2
+          parameters:
+          - C
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - So, onto business...
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 1
+          parameters:
+          - 12
+          - "$PokemonBag.pbQuantity(PBItems::HEARTSCALE)>1"
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'I see you''ve brought the Heart Scales. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'In that case, would you like me to treat one of your '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - Pokémon?
+        - !ruby/object:RPG::EventCommand
+          code: 102
+          indent: 2
+          parameters:
+          - - 'Yes'
+            - 'No'
+          - 2
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 2
+          parameters:
+          - 0
+          - 'Yes'
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - pbChooseNonEggPokemon(1,2)
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - pkmn=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - "$game_variables[58] ="
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - PBSpecies.getName(pkmn.species)
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 0
+          - 4
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'I see, I see. No, that''s all right. If you have no need of '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - my services, then that is ideal, yes?
+        - !ruby/object:RPG::EventCommand
+          code: 115
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - Very good, very good!
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'As for the nature of the treatment... '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - What did you have in mind?
+        - !ruby/object:RPG::EventCommand
+          code: 121
+          indent: 3
+          parameters:
+          - 2054
+          - 2054
+          - 1
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 3
+          parameters:
+          - pkmn=pbGetPokemon(1)
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 3
+          parameters:
+          - "$game_switches[2054] = aChangeNature(pkmn)"
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 3
+          parameters:
+          - 0
+          - 2054
+          - 0
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'I believe we can do that just fine-- if you''ll simply '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - provide the payment?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - "\\PN handed over two Heart Scales."
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 4
+          parameters:
+          - "$PokemonBag.pbDeleteItem("
+        - !ruby/object:RPG::EventCommand
+          code: 655
+          indent: 4
+          parameters:
+          - PBItems::HEARTSCALE,2)
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'Ah, wonderful! I can hardly wait. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - Now... \v[58], please lie down.
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 4
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 106
+          indent: 4
+          parameters:
+          - 40
+        - !ruby/object:RPG::EventCommand
+          code: 223
+          indent: 4
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'Well, I feel that we''ve made a breakthrough today. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'You may find that you have a brand new \v[58] on '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - 'your hands. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'Please come again if you wish to have another '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - session.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - Ah, have we changed our minds?
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 4
+          parameters:
+          - 'One cannot make real progress without commitment, '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 4
+          parameters:
+          - you know.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 4
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 402
+          indent: 2
+          parameters:
+          - 1
+          - 'No'
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Of course, of course. '
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 3
+          parameters:
+          - 'Well, if you ever have need of my services, you '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 3
+          parameters:
+          - know where to find me.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 3
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 404
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 411
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 101
+          indent: 2
+          parameters:
+          - 'Do come around if you ever have the Heart Scales '
+        - !ruby/object:RPG::EventCommand
+          code: 401
+          indent: 2
+          parameters:
+          - and want me to try to change a Pokémon's Nature.
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 2
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+    4: !ruby/object:RPG::Event
+      id: 4
+      name: EV004
+      x: 3
+      y: 4
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 438
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: true
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+    5: !ruby/object:RPG::Event
+      id: 5
+      name: EV005
+      x: 4
+      y: 4
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 439
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: true
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
+    6: !ruby/object:RPG::Event
+      id: 6
+      name: EV006
+      x: 13
+      y: 4
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_hue: 0
+          direction: 2
+          pattern: 0
+          opacity: 255
+          blend_type: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        always_on_top: false
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          code: 111
+          indent: 0
+          parameters:
+          - 6
+          - -1
+          - 8
+        - !ruby/object:RPG::EventCommand
+          code: 355
+          indent: 1
+          parameters:
+          - pbPokeCenterPC
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 1
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 412
+          indent: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          code: 0
+          indent: 0
+          parameters: []
