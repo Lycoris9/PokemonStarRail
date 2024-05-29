@@ -4002,15 +4002,20 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 2
-          - 1
+          - 0
           indent: 0
           code: 121
         - !ruby/object:RPG::EventCommand
           parameters:
+          - pbAddPokemonSilent(:NINETALES,10)
+          indent: 0
+          code: 355
+        - !ruby/object:RPG::EventCommand
+          parameters:
           - 0
-          - 906
-          - 14
-          - 26
+          - 912
+          - 9
+          - 5
           - 0
           - 1
           indent: 0

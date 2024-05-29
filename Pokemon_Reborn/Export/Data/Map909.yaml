@@ -4,7 +4,144 @@ root: !ruby/object:RPG::Map
     volume: 100
     name: ''
     pitch: 100
-  events: {}
+  events:
+    1: !ruby/object:RPG::Event
+      pages:
+      - !ruby/object:RPG::Event::Page
+        move_type: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - 0
+          - 912
+          - 3
+          - 9
+          - 6
+          - 1
+          indent: 0
+          code: 201
+        - !ruby/object:RPG::EventCommand
+          parameters: []
+          indent: 0
+          code: 0
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch2_valid: false
+          self_switch_ch: A
+          switch1_id: 1
+          switch1_valid: false
+          variable_value: 0
+          self_switch_valid: false
+          variable_id: 1
+          variable_valid: false
+          switch2_id: 1
+        direction_fix: false
+        move_route: !ruby/object:RPG::MoveRoute
+          list:
+          - !ruby/object:RPG::MoveCommand
+            parameters: []
+            code: 0
+          skippable: false
+          repeat: true
+        trigger: 1
+        step_anime: false
+        move_frequency: 3
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          opacity: 255
+          character_name: ''
+          pattern: 0
+          tile_id: 0
+          direction: 2
+          blend_type: 0
+          character_hue: 0
+        always_on_top: false
+        walk_anime: true
+        move_speed: 3
+        through: false
+      name: EV001
+      y: 15
+      x: 23
+      id: 1
+    2: !ruby/object:RPG::Event
+      pages:
+      - !ruby/object:RPG::Event::Page
+        move_type: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - "???: Welcome to Jirachi Station, baby trainer!"
+          indent: 0
+          code: 101
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - Are you surprised?
+          indent: 0
+          code: 101
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - "... ..."
+          indent: 0
+          code: 101
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - No need to be so hostile.
+          indent: 0
+          code: 101
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - adsfgbhj
+          indent: 0
+          code: 101
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - 'There''s a Rotom in the room to the right of you that '
+          indent: 0
+          code: 101
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - needs your help.
+          indent: 0
+          code: 401
+        - !ruby/object:RPG::EventCommand
+          parameters: []
+          indent: 0
+          code: 0
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch2_valid: false
+          self_switch_ch: A
+          switch1_id: 2227
+          switch1_valid: true
+          variable_value: 0
+          self_switch_valid: false
+          variable_id: 1
+          variable_valid: false
+          switch2_id: 1
+        direction_fix: false
+        move_route: !ruby/object:RPG::MoveRoute
+          list:
+          - !ruby/object:RPG::MoveCommand
+            parameters: []
+            code: 0
+          skippable: false
+          repeat: true
+        trigger: 0
+        step_anime: false
+        move_frequency: 3
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          opacity: 255
+          character_name: ''
+          pattern: 0
+          tile_id: 0
+          direction: 2
+          blend_type: 0
+          character_hue: 0
+        always_on_top: false
+        walk_anime: true
+        move_speed: 3
+        through: false
+      name: EV002
+      y: 0
+      x: 0
+      id: 2
   tileset_id: 56
   bgs: !ruby/object:RPG::AudioFile
     volume: 80
@@ -15,9 +152,10 @@ root: !ruby/object:RPG::Map
     dim: 3
     zsize: 3
     ysize: 16
-    xsize: 22
+    xsize: 24
     data:
-    - 0
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -38,8 +176,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -60,8 +200,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -82,8 +224,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -104,8 +248,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -126,8 +272,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -148,8 +296,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -170,8 +320,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -192,8 +344,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -214,8 +368,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -236,8 +392,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -258,8 +416,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -280,8 +440,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -302,8 +464,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -324,8 +488,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 64
+    - 48
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -346,8 +512,10 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 418
-    - 0
-    - 0
+    - 88
+    - 56
+    - 48
+    - 72
     - 418
     - 418
     - 418
@@ -369,6 +537,71 @@ root: !ruby/object:RPG::Map
     - 418
     - 418
     - 516
+    - 64
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -1076,5 +1309,5 @@ root: !ruby/object:RPG::Map
   autoplay_bgs: false
   height: 16
   encounter_step: 30
-  width: 22
+  width: 24
   encounter_list: []

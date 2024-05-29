@@ -251,32 +251,22 @@ root: !ruby/object:RPG::Map
         list:
         - !ruby/object:RPG::EventCommand
           parameters:
-          - 'I''ve seen young people at this station who looked like '
+          - I've seen your type at this station before.
           indent: 0
           code: 101
         - !ruby/object:RPG::EventCommand
           parameters:
-          - you.
-          indent: 0
-          code: 401
-        - !ruby/object:RPG::EventCommand
-          parameters:
-          - Like no amount of sleep would give them respite.
-          indent: 0
-          code: 401
-        - !ruby/object:RPG::EventCommand
-          parameters:
-          - I hope you find yours.
+          - 'Looking like no amount of sleep would give them '
           indent: 0
           code: 101
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - respite.
+          indent: 0
+          code: 401
         - !ruby/object:RPG::EventCommand
           parameters:
           - "..."
-          indent: 0
-          code: 101
-        - !ruby/object:RPG::EventCommand
-          parameters:
-          - Don't listen to me. I sound like a senile old man.
           indent: 0
           code: 101
         - !ruby/object:RPG::EventCommand
@@ -412,6 +402,13 @@ root: !ruby/object:RPG::Map
           code: 122
         - !ruby/object:RPG::EventCommand
           parameters:
+          - 2227
+          - 2227
+          - 0
+          indent: 1
+          code: 121
+        - !ruby/object:RPG::EventCommand
+          parameters:
           - -1
           - 3
           indent: 1
@@ -430,6 +427,57 @@ root: !ruby/object:RPG::Map
           - 0
           indent: 1
           code: 231
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - 5
+          indent: 1
+          code: 106
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 10
+          indent: 1
+          code: 223
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - 9
+          indent: 1
+          code: 106
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - 1
+          indent: 1
+          code: 235
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - 0
+          - 909
+          - 18
+          - 15
+          - 8
+          - 1
+          indent: 1
+          code: 201
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 10
+          indent: 1
+          code: 223
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - A
+          - 1
+          indent: 1
+          code: 123
         - !ruby/object:RPG::EventCommand
           parameters: []
           indent: 1
@@ -502,7 +550,7 @@ root: !ruby/object:RPG::Map
             code: 0
           skippable: false
           repeat: true
-        trigger: 4
+        trigger: 3
         step_anime: false
         move_frequency: 3
         always_on_top: false
