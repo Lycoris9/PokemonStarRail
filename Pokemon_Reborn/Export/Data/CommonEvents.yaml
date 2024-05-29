@@ -2,6 +2,7 @@
 root:
 -
 - !ruby/object:RPG::CommonEvent
+  name: Pokemon Center
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -13,11 +14,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Pokemon Center
   trigger: 0
   switch_id: 1
   id: 1
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Fern
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -177,21 +178,21 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Fern
   trigger: 0
   switch_id: 1
   id: 2
 - !ruby/object:RPG::CommonEvent
+  name: Reserved (enumag)
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
-  name: Reserved (enumag)
   trigger: 0
   switch_id: 1
   id: 3
 - !ruby/object:RPG::CommonEvent
+  name: TV
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2986,11 +2987,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: TV
   trigger: 0
   switch_id: 1
   id: 4
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Voltorb
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -3001,21 +3002,21 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Voltorb
   trigger: 0
   switch_id: 1
   id: 5
 - !ruby/object:RPG::CommonEvent
+  name: REMOVED Set Weather
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
-  name: REMOVED Set Weather
   trigger: 0
   switch_id: 116
   id: 6
 - !ruby/object:RPG::CommonEvent
+  name: REMOVED Weather Trigger
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -3038,11 +3039,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: REMOVED Weather Trigger
   trigger: 0
   switch_id: 119
   id: 7
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Shelly
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -3177,11 +3178,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Shelly
   trigger: 0
   switch_id: 1
   id: 8
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Victoria
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -3305,11 +3306,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Victoria
   trigger: 0
   switch_id: 1
   id: 9
 - !ruby/object:RPG::CommonEvent
+  name: Center Clear
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -3866,11 +3867,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Center Clear
   trigger: 0
   switch_id: 1
   id: 10
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Cain
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4040,11 +4041,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Cain
   trigger: 0
   switch_id: 1
   id: 11
 - !ruby/object:RPG::CommonEvent
+  name: REMOVED High winds!
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4431,11 +4432,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: REMOVED High winds!
   trigger: 0
   switch_id: 118
   id: 12
 - !ruby/object:RPG::CommonEvent
+  name: REMOVED DeTauros
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4797,11 +4798,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: REMOVED DeTauros
   trigger: 0
   switch_id: 291
   id: 13
 - !ruby/object:RPG::CommonEvent
+  name: Mount Tauros
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5096,11 +5097,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Mount Tauros
   trigger: 0
   switch_id: 1
   id: 14
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon1
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5122,11 +5123,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon1
   trigger: 2
   switch_id: 325
   id: 15
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon2
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5148,11 +5149,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon2
   trigger: 2
   switch_id: 329
   id: 16
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon3
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5174,11 +5175,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon3
   trigger: 2
   switch_id: 330
   id: 17
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon4
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5200,11 +5201,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon4
   trigger: 2
   switch_id: 331
   id: 18
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon5
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5226,11 +5227,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon5
   trigger: 2
   switch_id: 332
   id: 19
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon6
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5252,11 +5253,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon6
   trigger: 2
   switch_id: 333
   id: 20
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon7
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5278,11 +5279,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon7
   trigger: 2
   switch_id: 345
   id: 21
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon8
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5304,11 +5305,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon8
   trigger: 2
   switch_id: 346
   id: 22
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon9
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5330,11 +5331,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon9
   trigger: 2
   switch_id: 347
   id: 23
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon10
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5356,11 +5357,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon10
   trigger: 2
   switch_id: 348
   id: 24
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon11
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5382,11 +5383,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon11
   trigger: 2
   switch_id: 349
   id: 25
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon12
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5408,11 +5409,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon12
   trigger: 2
   switch_id: 350
   id: 26
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon13
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5434,11 +5435,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon13
   trigger: 2
   switch_id: 351
   id: 27
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon14
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5460,11 +5461,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon14
   trigger: 2
   switch_id: 352
   id: 28
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon15
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5486,11 +5487,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon15
   trigger: 2
   switch_id: 353
   id: 29
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon16
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5512,11 +5513,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon16
   trigger: 2
   switch_id: 354
   id: 30
 - !ruby/object:RPG::CommonEvent
+  name: Honey Summon17
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5538,11 +5539,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Honey Summon17
   trigger: 2
   switch_id: 355
   id: 31
 - !ruby/object:RPG::CommonEvent
+  name: REMOVED Force DeTauros
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5834,11 +5835,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: REMOVED Force DeTauros
   trigger: 0
   switch_id: 1
   id: 32
 - !ruby/object:RPG::CommonEvent
+  name: REMOVED Snackies?
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5885,11 +5886,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: REMOVED Snackies?
   trigger: 0
   switch_id: 70
   id: 33
 - !ruby/object:RPG::CommonEvent
+  name: TV- Breaking News
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -8046,11 +8047,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: TV- Breaking News
   trigger: 0
   switch_id: 1
   id: 34
 - !ruby/object:RPG::CommonEvent
+  name: TV- Interview
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -12394,11 +12395,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: TV- Interview
   trigger: 0
   switch_id: 1
   id: 35
 - !ruby/object:RPG::CommonEvent
+  name: TV- Profiles
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -15304,11 +15305,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: TV- Profiles
   trigger: 0
   switch_id: 1
   id: 36
 - !ruby/object:RPG::CommonEvent
+  name: TV- Commercials
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -16359,11 +16360,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: TV- Commercials
   trigger: 0
   switch_id: 1
   id: 37
 - !ruby/object:RPG::CommonEvent
+  name: TV- On the Hunt
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -19922,11 +19923,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: TV- On the Hunt
   trigger: 0
   switch_id: 1
   id: 38
 - !ruby/object:RPG::CommonEvent
+  name: TV- Weather
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -20967,21 +20968,21 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: TV- Weather
   trigger: 0
   switch_id: 1
   id: 39
 - !ruby/object:RPG::CommonEvent
+  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
-  name: ''
   trigger: 0
   switch_id: 1
   id: 40
 - !ruby/object:RPG::CommonEvent
+  name: Drop Powder
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -21085,11 +21086,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Drop Powder
   trigger: 0
   switch_id: 1
   id: 41
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Aya
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -21347,11 +21348,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Aya
   trigger: 0
   switch_id: 1
   id: 42
 - !ruby/object:RPG::CommonEvent
+  name: Position Jumps
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -21703,11 +21704,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Position Jumps
   trigger: 0
   switch_id: 1
   id: 43
 - !ruby/object:RPG::CommonEvent
+  name: Set Active Point
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -22078,11 +22079,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Set Active Point
   trigger: 0
   switch_id: 1
   id: 44
 - !ruby/object:RPG::CommonEvent
+  name: Landing Handling
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
@@ -22489,11 +22490,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Landing Handling
   trigger: 0
   switch_id: 1
   id: 45
 - !ruby/object:RPG::CommonEvent
+  name: 'Move Jumps '
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -22905,11 +22906,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: 'Move Jumps '
   trigger: 0
   switch_id: 1
   id: 46
 - !ruby/object:RPG::CommonEvent
+  name: Clear Jumps
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -23050,11 +23051,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Clear Jumps
   trigger: 0
   switch_id: 1
   id: 47
 - !ruby/object:RPG::CommonEvent
+  name: Holding Set Weather
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -23400,11 +23401,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Holding Set Weather
   trigger: 0
   switch_id: 1
   id: 48
 - !ruby/object:RPG::CommonEvent
+  name: Old Weather
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -23660,11 +23661,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Old Weather
   trigger: 0
   switch_id: 1
   id: 49
 - !ruby/object:RPG::CommonEvent
+  name: Geyser Reset
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -23791,11 +23792,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Geyser Reset
   trigger: 0
   switch_id: 1
   id: 50
 - !ruby/object:RPG::CommonEvent
+  name: Application Handler
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -27383,11 +27384,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Application Handler
   trigger: 1
   switch_id: 783
   id: 51
 - !ruby/object:RPG::CommonEvent
+  name: Crystal Spinner
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -31920,11 +31921,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Crystal Spinner
   trigger: 0
   switch_id: 1
   id: 52
 - !ruby/object:RPG::CommonEvent
+  name: Script DeTauros
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -32191,11 +32192,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Script DeTauros
   trigger: 0
   switch_id: 1
   id: 53
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Taka
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -34899,11 +34900,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Taka
   trigger: 0
   switch_id: 1
   id: 54
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Glaceon
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -36542,11 +36543,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Glaceon
   trigger: 0
   switch_id: 1
   id: 55
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Espeon
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -38649,11 +38650,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Espeon
   trigger: 0
   switch_id: 1
   id: 56
 - !ruby/object:RPG::CommonEvent
+  name: Glaceon Swap Backup
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -40329,11 +40330,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Glaceon Swap Backup
   trigger: 0
   switch_id: 1
   id: 57
 - !ruby/object:RPG::CommonEvent
+  name: Espeon Swap Backup
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -42491,11 +42492,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Espeon Swap Backup
   trigger: 0
   switch_id: 1
   id: 58
 - !ruby/object:RPG::CommonEvent
+  name: Department Store Card
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -43851,11 +43852,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Department Store Card
   trigger: 1
   switch_id: 1097
   id: 59
 - !ruby/object:RPG::CommonEvent
+  name: Fishing Animation
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -43898,11 +43899,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Fishing Animation
   trigger: 0
   switch_id: 1
   id: 60
 - !ruby/object:RPG::CommonEvent
+  name: Minecart Hero
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -44154,11 +44155,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Minecart Hero
   trigger: 0
   switch_id: 1
   id: 61
 - !ruby/object:RPG::CommonEvent
+  name: Zygarde Cell
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -44311,11 +44312,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Zygarde Cell
   trigger: 0
   switch_id: 1
   id: 62
 - !ruby/object:RPG::CommonEvent
+  name: Theme Team Arrays
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -46755,11 +46756,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Theme Team Arrays
   trigger: 0
   switch_id: 1
   id: 63
 - !ruby/object:RPG::CommonEvent
+  name: Field Names
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -47579,11 +47580,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Field Names
   trigger: 0
   switch_id: 1
   id: 64
 - !ruby/object:RPG::CommonEvent
+  name: Blue Orb Trigger
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -47637,11 +47638,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Blue Orb Trigger
   trigger: 1
   switch_id: 1674
   id: 65
 - !ruby/object:RPG::CommonEvent
+  name: Credits Handling
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -47713,11 +47714,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Credits Handling
   trigger: 0
   switch_id: 1
   id: 66
 - !ruby/object:RPG::CommonEvent
+  name: Blacksteam Fabrication Tint
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -48001,11 +48002,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Blacksteam Fabrication Tint
   trigger: 0
   switch_id: 1
   id: 67
 - !ruby/object:RPG::CommonEvent
+  name: Rhodochrine Tree Counting
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -48177,11 +48178,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Rhodochrine Tree Counting
   trigger: 0
   switch_id: 1
   id: 68
 - !ruby/object:RPG::CommonEvent
+  name: 'Dependent Noel :( '
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -49368,11 +49369,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: 'Dependent Noel :( '
   trigger: 0
   switch_id: 1
   id: 69
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Taka Future
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -49496,11 +49497,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Taka Future
   trigger: 0
   switch_id: 1
   id: 70
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Elias Future
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -49639,11 +49640,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Elias Future
   trigger: 0
   switch_id: 1
   id: 71
 - !ruby/object:RPG::CommonEvent
+  name: Dependent Lin
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -50133,11 +50134,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Dependent Lin
   trigger: 0
   switch_id: 1
   id: 72
 - !ruby/object:RPG::CommonEvent
+  name: MnM Relationship Check
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -51081,11 +51082,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: MnM Relationship Check
   trigger: 0
   switch_id: 1
   id: 73
 - !ruby/object:RPG::CommonEvent
+  name: Ending Relationship Check
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -52584,11 +52585,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Ending Relationship Check
   trigger: 0
   switch_id: 1
   id: 74
 - !ruby/object:RPG::CommonEvent
+  name: Full PostEnding Handler
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -52657,11 +52658,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Full PostEnding Handler
   trigger: 0
   switch_id: 1
   id: 75
 - !ruby/object:RPG::CommonEvent
+  name: Tier Handler
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -54069,11 +54070,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Tier Handler
   trigger: 0
   switch_id: 1
   id: 76
 - !ruby/object:RPG::CommonEvent
+  name: PostEnding Handler2
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -54214,11 +54215,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: PostEnding Handler2
   trigger: 0
   switch_id: 1
   id: 77
 - !ruby/object:RPG::CommonEvent
+  name: Malamar
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -54252,11 +54253,11 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Malamar
   trigger: 0
   switch_id: 1
   id: 78
 - !ruby/object:RPG::CommonEvent
+  name: Grind Trainer
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -54828,27 +54829,26 @@ root:
     parameters: []
     indent: 0
     code: 0
-  name: Grind Trainer
   trigger: 0
   switch_id: 1
   id: 79
 - !ruby/object:RPG::CommonEvent
+  name: Reserved (enumag)
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
-  name: Reserved (enumag)
   trigger: 0
   switch_id: 1
   id: 80
 - !ruby/object:RPG::CommonEvent
+  name: Reserved (enumag)
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
-  name: Reserved (enumag)
   trigger: 0
   switch_id: 1
   id: 81
