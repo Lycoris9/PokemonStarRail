@@ -2304,11 +2304,4 @@ TTYPEHASH = {
 	:skill => 100,
 	:battleBGM => "Battle- Postgame.ogg",
 },
-
-:PROFESSOR => {
-	:ID => 295,
-	:title => "PkMn Professor",
-	:skill => 50,
-	:battleBGM => "Battle - Trainer1.ogg",
-}
 }
