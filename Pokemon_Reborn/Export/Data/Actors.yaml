@@ -2,12 +2,12 @@
 root:
 -
 - !ruby/object:RPG::Actor
-  initial_level: 1
   armor4_id: 0
+  initial_level: 1
+  weapon_id: 0
+  character_name: ''
   name: Player
-  character_name: ''
-  weapon_id: 0
-  exp_inflation: 30
+  armor2_fix: false
   parameters: !ruby/object:Table
     dim: 2
     zsize: 1
@@ -614,28 +614,28 @@ root:
     - 545
     - 545
     - 545
-  armor2_fix: false
-  class_id: 1
+  exp_inflation: 30
   armor3_id: 0
-  exp_basis: 30
+  class_id: 1
   armor1_fix: false
+  exp_basis: 30
   armor2_id: 0
-  battler_hue: 0
   armor4_fix: false
-  final_level: 99
+  battler_hue: 0
   weapon_fix: false
+  final_level: 99
+  armor1_id: 0
+  character_hue: 0
   id: 1
-  character_hue: 0
-  armor1_id: 0
-  battler_name: ''
   armor3_fix: false
+  battler_name: ''
 - !ruby/object:RPG::Actor
-  initial_level: 1
   armor4_id: 0
-  name: ''
-  character_name: ''
+  initial_level: 1
   weapon_id: 0
-  exp_inflation: 30
+  character_name: ''
+  name: ''
+  armor2_fix: false
   parameters: !ruby/object:Table
     dim: 2
     zsize: 1
@@ -1242,18 +1242,18 @@ root:
     - 545
     - 545
     - 545
-  armor2_fix: false
-  class_id: 1
+  exp_inflation: 30
   armor3_id: 0
-  exp_basis: 30
+  class_id: 1
   armor1_fix: false
+  exp_basis: 30
   armor2_id: 0
-  battler_hue: 0
   armor4_fix: false
-  final_level: 99
+  battler_hue: 0
   weapon_fix: false
-  id: 2
-  character_hue: 0
+  final_level: 99
   armor1_id: 0
-  battler_name: ''
+  character_hue: 0
+  id: 2
   armor3_fix: false
+  battler_name: ''
