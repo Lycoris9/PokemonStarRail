@@ -86,7 +86,8 @@ root: !ruby/object:RPG::Map
         - !ruby/object:RPG::EventCommand
           parameters:
           - 12
-          - pbTrainerBattle(PBTrainers::AME,"Wiener",_I("Impressive"),false,0,true)
+          - pbTrainerBattle(PBTrainers::PROFESSOR,"Wiener",_I("I'll get you next time,
+            loser."),false,0,true)
           indent: 0
           code: 111
         - !ruby/object:RPG::EventCommand
