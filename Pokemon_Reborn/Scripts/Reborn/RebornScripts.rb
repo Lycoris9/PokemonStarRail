@@ -404,6 +404,18 @@ class PokemonGlobalMetadata
     $PokemonGlobal.tutoredMoves.push(moveid)
   end
   
+  def pbPartyHasMove(moveId)
+    for pokemon in $Trainer.party
+      next if pokemon.isEgg?
+      for move in pokemon.moves
+        if move.id == moveId
+          return true
+        end
+      end
+    end
+    return false
+  end
+
   #########################################################################
   # Passwords                                                             #
   #########################################################################
