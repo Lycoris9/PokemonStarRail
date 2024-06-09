@@ -297,17 +297,18 @@ KYRA=294
 PROFESSOR=295
 ROTOM=296
 AMPHAROS=297
-CORRUPTEDWISH=298
+CORRUPTEDWISH_Male=298
 RAILMASTER=299
 GARBODOR=300
+CORRUPTEDWISH_Female=301
 
 def self.getName(id)
 return pbGetMessage(MessageTypes::TrainerTypes,id)
 end
 def self.getCount
-return 301
+return 302
 end
 def self.maxValue
-return 300
+return 301
 end
 end
