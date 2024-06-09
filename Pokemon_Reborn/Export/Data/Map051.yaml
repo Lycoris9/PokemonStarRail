@@ -4007,15 +4007,20 @@ root: !ruby/object:RPG::Map
           code: 121
         - !ruby/object:RPG::EventCommand
           parameters:
-          - pbAddPokemonSilent(:RELICANTH,12)
+          - pbAddPokemonSilent(:NINETALES,12)
+          indent: 0
+          code: 355
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - "$PokemonBag.pbStoreItem(PBItems::POKEBALL,5)"
           indent: 0
           code: 355
         - !ruby/object:RPG::EventCommand
           parameters:
           - 0
           - 913
-          - 21
-          - 13
+          - 25
+          - 28
           - 0
           - 1
           indent: 0
