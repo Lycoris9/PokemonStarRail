@@ -301,14 +301,15 @@ CORRUPTEDWISH_Male=298
 RAILMASTER=299
 GARBODOR=300
 CORRUPTEDWISH_Female=301
+EARTHCONDUCTOR=302
 
 def self.getName(id)
 return pbGetMessage(MessageTypes::TrainerTypes,id)
 end
 def self.getCount
-return 302
+return 303
 end
 def self.maxValue
-return 301
+return 302
 end
 end

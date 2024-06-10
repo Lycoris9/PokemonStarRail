@@ -21,7 +21,7 @@ root: !ruby/object:RPG::Map
           code: 655
         - !ruby/object:RPG::EventCommand
           parameters:
-          - '], "buy buy buy")'
+          - '], "Potions! For healing on the go!")'
           indent: 0
           code: 655
         - !ruby/object:RPG::EventCommand
@@ -82,7 +82,12 @@ root: !ruby/object:RPG::Map
           code: 655
         - !ruby/object:RPG::EventCommand
           parameters:
-          - '], "buy buy buy")'
+          - '], "Pokeballs! Essential for starting '
+          indent: 0
+          code: 655
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - your Pokemon Journey!")
           indent: 0
           code: 655
         - !ruby/object:RPG::EventCommand
@@ -143,7 +148,12 @@ root: !ruby/object:RPG::Map
           code: 655
         - !ruby/object:RPG::EventCommand
           parameters:
-          - '], "buy buy buy")'
+          - '], "Repels! For when you can''t be '
+          indent: 0
+          code: 655
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - bothered to fight!")
           indent: 0
           code: 655
         - !ruby/object:RPG::EventCommand
@@ -455,9 +465,9 @@ root: !ruby/object:RPG::Map
         - !ruby/object:RPG::EventCommand
           parameters:
           - 0
-          - 909
-          - 18
+          - 917
           - 15
+          - 22
           - 8
           - 1
           indent: 1
@@ -711,7 +721,12 @@ root: !ruby/object:RPG::Map
           code: 655
         - !ruby/object:RPG::EventCommand
           parameters:
-          - '], "buy buy buy")'
+          - '], "Heal your status effects '
+          indent: 0
+          code: 655
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - painlessly!")
           indent: 0
           code: 655
         - !ruby/object:RPG::EventCommand
