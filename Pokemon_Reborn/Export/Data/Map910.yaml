@@ -4,7 +4,6 @@ root: !ruby/object:RPG::Map
     volume: 100
     name: ''
     pitch: 100
-  tileset_id: 2
   events:
     1: !ruby/object:RPG::Event
       pages:
@@ -13,10 +12,10 @@ root: !ruby/object:RPG::Map
         - !ruby/object:RPG::EventCommand
           parameters:
           - 0
-          - 909
-          - 22
-          - 15
-          - 4
+          - 918
+          - 1
+          - 16
+          - 6
           - 1
           indent: 0
           code: 201
@@ -60,12 +59,11 @@ root: !ruby/object:RPG::Map
         through: false
       name: EV001
       y: 9
-      x: 3
+      x: 22
       id: 1
     2: !ruby/object:RPG::Event
       pages:
       - !ruby/object:RPG::Event::Page
-        move_type: 0
         list:
         - !ruby/object:RPG::EventCommand
           parameters:
@@ -140,6 +138,8 @@ root: !ruby/object:RPG::Map
           parameters: []
           indent: 0
           code: 0
+        move_type: 0
+        direction_fix: false
         condition: !ruby/object:RPG::Event::Page::Condition
           switch2_valid: false
           self_switch_ch: A
@@ -150,7 +150,6 @@ root: !ruby/object:RPG::Map
           variable_id: 1
           variable_valid: false
           switch2_id: 1
-        direction_fix: false
         move_route: !ruby/object:RPG::MoveRoute
           list:
           - !ruby/object:RPG::MoveCommand
@@ -161,6 +160,7 @@ root: !ruby/object:RPG::Map
         trigger: 0
         step_anime: false
         move_frequency: 3
+        always_on_top: false
         graphic: !ruby/object:RPG::Event::Page::Graphic
           opacity: 255
           character_name: ''
@@ -169,7 +169,6 @@ root: !ruby/object:RPG::Map
           direction: 2
           blend_type: 0
           character_hue: 0
-        always_on_top: false
         walk_anime: true
         move_speed: 3
         through: false
@@ -180,6 +179,7 @@ root: !ruby/object:RPG::Map
     3: !ruby/object:RPG::Event
       pages:
       - !ruby/object:RPG::Event::Page
+        move_type: 0
         list:
         - !ruby/object:RPG::EventCommand
           parameters:
@@ -205,8 +205,6 @@ root: !ruby/object:RPG::Map
           parameters: []
           indent: 0
           code: 0
-        move_type: 0
-        direction_fix: false
         condition: !ruby/object:RPG::Event::Page::Condition
           switch2_valid: false
           self_switch_ch: A
@@ -217,6 +215,7 @@ root: !ruby/object:RPG::Map
           variable_id: 1
           variable_valid: false
           switch2_id: 1
+        direction_fix: false
         move_route: !ruby/object:RPG::MoveRoute
           list:
           - !ruby/object:RPG::MoveCommand
@@ -227,7 +226,6 @@ root: !ruby/object:RPG::Map
         trigger: 0
         step_anime: false
         move_frequency: 3
-        always_on_top: false
         graphic: !ruby/object:RPG::Event::Page::Graphic
           opacity: 255
           character_name: ''
@@ -236,6 +234,7 @@ root: !ruby/object:RPG::Map
           direction: 2
           blend_type: 0
           character_hue: 0
+        always_on_top: false
         walk_anime: true
         move_speed: 3
         through: false
@@ -243,6 +242,7 @@ root: !ruby/object:RPG::Map
       y: 3
       x: 8
       id: 3
+  tileset_id: 2
   bgs: !ruby/object:RPG::AudioFile
     volume: 80
     name: ''
@@ -491,25 +491,25 @@ root: !ruby/object:RPG::Map
     - 384
     - 384
     - 384
-    - 1466
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
-    - 1554
     - 384
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1554
+    - 1466
     - 384
     - 384
     - 384
