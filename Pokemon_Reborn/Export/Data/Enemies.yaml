@@ -2,21 +2,23 @@
 root:
 -
 - !ruby/object:RPG::Enemy
-  animation1_id: 0
-  eva: 0
   str: 999
-  weapon_id: 0
-  gold: 0
-  mdef: 100
+  eva: 0
+  animation1_id: 0
   name: ''
+  mdef: 100
+  gold: 0
+  weapon_id: 0
   int: 50
-  treasure_prob: 100
   maxsp: 500
-  exp: 0
+  treasure_prob: 100
   pdef: 100
+  exp: 0
   agi: 50
-  armor_id: 0
   maxhp: 33333
+  armor_id: 0
+  battler_hue: 0
+  atk: 100
   state_ranks: !ruby/object:Table
     dim: 1
     zsize: 1
@@ -25,12 +27,19 @@ root:
     data:
     - 0
     - 3
-  atk: 100
-  battler_hue: 0
-  animation2_id: 0
   dex: 50
-  item_id: 0
+  animation2_id: 0
   id: 1
+  item_id: 0
+  battler_name: ''
+  element_ranks: !ruby/object:Table
+    dim: 1
+    zsize: 1
+    ysize: 1
+    xsize: 2
+    data:
+    - 0
+    - 3
   actions:
   - !ruby/object:RPG::Enemy::Action
     basic: 0
@@ -40,14 +49,5 @@ root:
     kind: 0
     condition_switch_id: 0
     condition_turn_a: 0
-    condition_level: 1
     skill_id: 1
-  element_ranks: !ruby/object:Table
-    dim: 1
-    zsize: 1
-    ysize: 1
-    xsize: 2
-    data:
-    - 0
-    - 3
-  battler_name: ''
+    condition_level: 1
