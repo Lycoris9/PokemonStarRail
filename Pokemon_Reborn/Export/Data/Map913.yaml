@@ -1408,13 +1408,18 @@ root: !ruby/object:RPG::Map
         list:
         - !ruby/object:RPG::EventCommand
           parameters:
+          - Kernel.pbNoticePlayer(get_character(0))
+          indent: 0
+          code: 355
+        - !ruby/object:RPG::EventCommand
+          parameters:
           - Have you seen Jack?
           indent: 0
           code: 101
         - !ruby/object:RPG::EventCommand
           parameters:
           - 12
-          - pbTrainerBattle(PBTrainers:CORRUPTEDWISH_Female,"Drishti",_I("I've been
+          - pbTrainerBattle(PBTrainers::CORRUPTEDWISH_Female,"Drishti",_I("I've been
             looking for him all night."))
           indent: 0
           code: 111
@@ -1515,7 +1520,7 @@ root: !ruby/object:RPG::Map
         walk_anime: true
         move_speed: 3
         through: false
-      name: EV002
+      name: Trainer(6)
       y: 21
       x: 6
       id: 2
@@ -1615,6 +1620,11 @@ root: !ruby/object:RPG::Map
       pages:
       - !ruby/object:RPG::Event::Page
         list:
+        - !ruby/object:RPG::EventCommand
+          parameters:
+          - Kernel.pbNoticePlayer(get_character(0))
+          indent: 0
+          code: 355
         - !ruby/object:RPG::EventCommand
           parameters:
           - 'If I had done something differently, would I be in this '
